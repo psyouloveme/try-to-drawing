@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>try to drawing</title>
+
+<!-- The stylesheets -->
+<link rel="stylesheet" href="assets/css/styles.css" />
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div id="cursors">
+<!-- The mouse pointers will be created here -->
+</div>
+<div id="tools">
+</div>
+
+<canvas id="paper" width="1900" height="1000">
+Your browser needs to support canvas for this to work!
+</canvas>
+<div id="instructions">
+	<h1>Try to drawing!</h1>
+</div>
+<footer>
+<h2>try to drawing; canvasses clear every 12h; need a blank canvas? go to /something; now with colors</h2>
+
+</footer>
+
+<!-- JavaScript includes. Notice that socket.io.js is served by node.js -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
