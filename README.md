@@ -19,6 +19,7 @@ install:
 
 run:
 - clone it
+- npm install
 - node index.js
 - go to localhost:8080 (production) or localhost:3000 (development)
 
