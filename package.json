@@ -5,6 +5,13 @@
   "private": true,
   "dependencies": {
     "express": "3.x",
-    "socket.io":"*"
+    "socket.io": "0.9.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psyouloveme/try-to-drawing.git"
+  },
+  "engines": {
+  	"node" : "=>0.10.x"
   }
 }
